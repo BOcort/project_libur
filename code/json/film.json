@@ -1,0 +1,10 @@
+{"film" : [
+    {
+        "judul": "Conan",
+        "file" : "/asset/conan.webp"
+    },
+    {
+        "judul": "Kambbing Jantan",
+        "file" : "/asset/kambing-jantan.webp"
+    }
+]}

@@ -1,0 +1,99 @@
+header {
+    background-color: black;
+    color: white;
+    height: 90px;
+    padding-left: 20px;
+
+    top: 0;
+}
+
+.header-list li {
+    list-style: none;
+
+}
+
+.header-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-bars {
+    display: none;
+}
+
+.header-logo {
+    margin: auto;
+    float: left;
+    font-size: 36px;
+    padding: 25px 10px;
+    letter-spacing: 5px;
+}
+
+.header-logo a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-logo:hover {
+    background-color: white;
+    color: black;
+}
+
+.header-list {
+    float: right;
+}
+
+
+.header-list li {
+    float: left;
+    padding: 33px 20px;
+    height: 24px;
+}
+
+
+.header-list .list li:hover {
+    color: black;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .list {
+        position: absolute;
+        display: block;
+        top: 90px;
+        right: -100%;
+        transition: 0.4s;
+        background-color: white;
+        color: black;
+    }
+
+    .list li {
+        width: 100%;
+        color: black;
+    }
+
+    .header-list .list li:hover {
+        color: white;
+        background-color: black;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+    .header-bars {
+        display: block;
+        padding: 33px 20px;
+        height: 24px;
+        fill: white;
+    }
+
+    .header-bars:hover {
+        fill: black;
+        background-color: white;
+        transition: 0.3s ease-in-out;
+    }
+
+
+}

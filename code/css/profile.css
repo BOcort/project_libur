@@ -1,0 +1,19 @@
+* {
+  margin: 0; 
+  padding: 0;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+#profile {
+    background-color: black;
+    border:dashed white 5px;
+    display: contents;
+    margin: 120px 0;
+  }
