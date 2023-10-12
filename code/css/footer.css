@@ -1,0 +1,15 @@
+footer {
+    text-align: center;
+    background-color: rgb(54, 50, 50);
+    color: white;
+    height: 120px;
+    text-align: center;
+}
+
+#footer {
+    display: none;
+    
+}
+footer h1 {
+    padding: 40px 0;
+}

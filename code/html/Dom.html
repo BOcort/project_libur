@@ -7,6 +7,7 @@
     <title>DOM | Tugas Uts</title>
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/Dom.css">
+    <link rel="stylesheet" href="../css/footer.css">
 </head>
 
 <body style="background-color: black; color: white;">
@@ -17,11 +18,11 @@
                     <div>ILHAM</div>
                 </div>
                 <div class="header-list">
-                    <svg class="header-bars" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                    <svg class="header-bars" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" onclick="showlist()">
                         <path
                             d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
                     </svg>
-                    <ul class="list">
+                    <ul class="list" id="trylist">
                         <a href="./home.html">
                             <li>Home</li>
                         </a>
@@ -49,7 +50,7 @@
                     <input type="text" class="input-data" id="text-data" placeholder="enter color">
                     <button type="submit" id="set-bg" class="input-data" onclick="setcolor()">Set backgroun</button>
                     <button id="set-new-color" class="input-data" onclick="addColor()">Add New Color list</button>
-                    <button id="footer" class="input-data">Add Footer</button>
+                    <button id="addfooter" class="input-data" onclick="addfooter()">Add Footer</button>
                 </div>
                 <div id="color-set" class="">
                     
@@ -57,6 +58,12 @@
             </div>
         </div>
     </main>
+    <div id="footer">
+        <footer>
+            <h1>Footer</h1>
+        </footer>
+    </div>
+    
     <script src="../JavaScript/dom.js"></script>
     <script src="../JavaScript/header.js"></script>
 </body>
