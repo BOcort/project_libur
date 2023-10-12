@@ -4,26 +4,26 @@ let film = {
         {
             "id": 1,
             "judul": "Conan",
-            "file": "/asset/conan.webp",
+            "file": "../../asset/conan.webp",
             "detail" : "hinichi Kudo, seorang detektif SMA berusia 18 tahun yang biasanya membantu polisi memecahkan kasus, diserang oleh 2 anggota sindikat misterius ketika mengawasi sebuah pemerasan. Ia kemudian diberi minum obat racun APTX 4869 yang baru selesai dikembangkan",
             "link" : "https://www.vidio.com/premier/4135/detective-conan"
         },
         {
             "id" : 2,
             "judul": "Kambing Jantan",
-            "file": "/asset/kambing-jantan.webp",
+            "file": "../../asset/kambing-jantan.webp",
             "detail" : "Dika baru saja menyelesaikan sekolah menengah dan pergi ke Australia untuk kuliah karena ibunya. Selama di Australia, dia harus menjalani hubungan jarak jauh dengan pacar lamanya.",
             "link" : "https://www.vidio.com/premier/3987/kambing-jantan"
         },{
             "id" : 3,
             "judul": "The Raid 2",
-            "file": "/asset/the-raid.webp",
+            "file": "../../asset/the-raid.webp",
             "detail" : "Dalam sekuel film laga ini, Rama dikirim menyamar untuk membasmi pejabat polisi yang korup dan komplotan geng dunia kriminal bawah tanah.",
             "link" : "https://vidio.com/premier/683/the-raid-2-berandal"
         },{
             "id" :4,
             "judul": "Rambo",
-            "file": "/asset/rambo.webp",
+            "file": "../../asset/rambo.webp",
             "detail" : "Rambo harus menghadapi masa lalunya dan menggali keterampilan tempurnya yang kejam untuk membalas dendam dalam misi terakhir.",
             "link" : "https://www.vidio.com/premier/4573/rambo-last-blood"
         }
